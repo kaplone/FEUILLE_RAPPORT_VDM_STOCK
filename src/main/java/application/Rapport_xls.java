@@ -69,7 +69,7 @@ public class Rapport_xls {
 			    	for (String tag : dest.getTags()){
 			    	
 				    	switch (tag){
-				    	case "USB3" : cell = row.createCell(7);
+				    	case "USB2" : cell = row.createCell(7);
 		                              cell.setCellValue(tag);
 		                              break;
 				    	case "CF" : cell = row.createCell(8);
@@ -191,7 +191,7 @@ public class Rapport_xls {
 			    		
 				    	
 				    	switch (tag){
-				    	case "USB3" : cell = row.createCell(8);
+				    	case "USB2" : cell = row.createCell(8);
 		                              cell.setCellValue(tag);
 		                              break;
 				    	case "CF" : cell = row.createCell(9);
